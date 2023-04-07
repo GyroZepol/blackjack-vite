@@ -1,0 +1,65 @@
+html {
+  font-size: 62.5%;
+}
+
+html,body {
+  background: #2F4F30 !important;
+  color: white;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+.cardsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x:scroll;
+}
+
+.cardsContainer::-webkit-scrollbar {
+  width: 0;
+}
+
+.header-container {
+  background-color: black;
+}
+
+.bj-title {
+  font-size: 6rem;
+  padding: 1rem;
+  text-align: center;
+  color: white;
+}
+
+.buttons-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+
+.buttons-container button {
+  font-size: 2rem;
+}
+
+.buttons-container > div:not(:last-of-type) {
+  margin-right: .5rem;
+}
+
+.bj-playing-card:not(:first-child){
+  margin-left: -7.5rem;
+}
+
+.bj-playing-card {
+  width: 18rem
+}
+
+#cpu-deck, #player-deck {
+  min-height: 30rem;
+}
+
+#playersNumber {
+  width: 4rem;
+}
